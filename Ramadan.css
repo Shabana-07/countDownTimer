@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Flower.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-right: 6px;
+  font-size: 4rem;
+  font-weight: normal;
+  
+}
+span{
+ margin: 0px 45px;
+ font-weight: bold;
+ font-size: 1.5rem;
+ text-align: center;
+}
+p{
+  margin: 0px 22px;
+  line-height: 2;
+ font-weight: bold;
+ font-size: 6rem;
+ text-align: center;
+}
+/* @media ( max-width:612px){
+    h1{
+      width:100vw;
+
+    }
+} */
